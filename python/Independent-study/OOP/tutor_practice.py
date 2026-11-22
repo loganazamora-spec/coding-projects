@@ -55,7 +55,7 @@ def main():
 
             students[name] = my_bot  # Save the bot under their name
 
-        # 3. Now use the bot (works for both new and returning students!)
+        # 3. Now use the bot
         print(f"Hi {my_bot.student_name}! I'm {my_bot.bot_name} (Grade {my_bot.level}).")
         
 main()
